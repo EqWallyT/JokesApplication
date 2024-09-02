@@ -4,11 +4,11 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 // modify these settings according to the account on your database server.
-$host = "localhost";
+$host = "jokesdb.mysql.database.azure.com";
 $port = "3306";
-$username = "root";
-$user_pass = "root";
-$database_in_use = "JokesDB";
+$username = "jokesdb";
+$user_pass = "Airgear1234!";
+$database_in_use = "jokesdb";
 
 
 $mysqli = new mysqli($host, $username, $user_pass, $database_in_use);
